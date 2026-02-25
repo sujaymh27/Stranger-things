@@ -1,0 +1,398 @@
+*{
+    padding: 0%;
+    margin: 0%;
+  font-family: 'Creepster', cursive;
+}
+/* styling for page 1-------------------*/
+body{
+    height: 100vh;
+    background-image: url(main2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainpage-container{
+    height: 300px;
+    width: 500px;
+    background-color: hsl(0, 0%, 0%,0.5);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 25px;
+    transition: transform 0.2s ease-in ;
+
+}
+#explorebtn{
+    height: 50px;
+    width: 250px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: medium;
+    text-align: center;
+    align-content: center;
+    font-size: larger;
+    border-radius: 10px;
+}
+.mainpage-container:hover{
+    transform: scale(1.1);
+}
+/* styling for page 2-------------------*/
+
+.sec_div{
+    height: 600px;
+    width: 800px;
+    background-color: hsl(0, 0%, 0%,0.5);
+    color: white;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+       border-radius: 20px;
+}
+.inner{
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+.seccont{
+    height: 200px;
+    width: 200px;
+    background-color: hsl(0, 0%, 100%,0.5);
+     border: solid white;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+@media (max-width:600px){
+    #body2{
+       height: 100vh;
+    background-image: url(secmain.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+    .sec_div{
+    height: 1100px;
+    width: 400px;
+    background-color: hsl(0, 0%, 0%,0.5);
+    color: white;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.seccont{
+    height: 250px;
+    width: 250px;
+    background-color: hsl(0, 0%, 100%,0.5);
+   
+}
+img{
+    height: 250px;
+    width: 250px;
+}
+}
+/*story page----------------------*/
+.story{
+    height: 90vh;
+    width: 700px;
+    background-color: hsl(0, 0%, 0%,0.5);
+    color: white;
+    display: flex;
+    flex-direction: column;    
+    gap: 15px;
+    border-radius: 15px;
+}
+@media (max-width:600px){
+    .story{
+    height: 90vh;
+    width: 500px;
+    background-color: hsl(0, 0%, 0%,0.5);
+    color: white;
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+    font-size: larger;
+}
+}
+/*charecters page----------------------*/
+.charecters{
+    height: 90vh;
+    width: 900px;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    color: white;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+    padding: 20px;
+    cursor: pointer;
+    
+}
+.members{
+    background-color: white;
+    border-radius: 15px;
+     border: 2px  rgb(255, 255, 255);
+  box-shadow: 0 0 8px rgb(255, 255, 255);
+}
+#eleven{
+ background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO6xX4VwzGQIkismaStGB0GQhU7mQDV1K3hA&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#mike{
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/9/91/Mike_Wheeler.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#will{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuU6NlAlsTztqqC39WXWftvNNsLvKwMCWR5w&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#lucus{
+    background-image: url(https://i.redd.it/u0wxfxrkh8w91.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#dustin{
+    background-image: url(https://s3.r29static.com/bin/entry/869/x,80/2214004/image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#steve{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQgcctbX04GE64y0y1uPl18xxNu5Zn7UL9QA&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#nancy{
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/7/73/Nancy_Wheeler.png/250px-Nancy_Wheeler.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#jonarthan{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8Zc4Eo3F0I3OVi-J6kEYJVyYX0YQco6ibGg&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#willmom{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKSH4pQwdqJY9vmaAGZADeI3U8dEFsVEfqLw&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#hopper{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJaOPXdkP_Vsaxeh_JftouZyZvqV8eRUEaIQ&s);
+     background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#holly{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrUPxl4TwlBCIB9GIRPphCI7QfEWDjGNMr9w&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#vecna{
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/vecna-transformation-69334716c2991.jpg?crop=0.406xw:0.813xh;0.549xw,0.0660xh&resize=640:*);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#billy{
+    background-image: url(https://i.pinimg.com/564x/e5/1a/9f/e51a9f3d2a729fe7cf11d20f232c0bb5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#erica{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8KtnkbNh4J022SBSaMAoMPiu_0_ieuO_gwA&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#dreek{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7rDU6lFN3aaOOHmOJyDe2qkdELnRb8PYIJg&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#robin{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSClUdcYSCEEv3r0uxY2aLJC9QOO6CVlQBd_Q&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#murray{
+    background-image: url(https://preview.redd.it/something-i-find-hilarious-about-murray-bauman-v0-arwfa35mkb3c1.png?width=640&crop=smart&auto=webp&s=3ef76312dcdeeeb5702445563bb4e8774a54e80a);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#eddie{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQthAKef4l2Gl68IocUyOIl-KoQO9JErEoOw&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#mikemom{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-jpFVOgDplcoLSTNQe-YWkDlwY7-SPOPcXA&s);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#mikedad{
+    background-image: url(https://i.pinimg.com/736x/4b/4b/ae/4b4bae93204753653724320d4b806694.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.members1{
+
+  position: fixed;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  display: none;   /* VERY IMPORTANT */
+  background:white;
+  padding:20px;
+  z-index:1000;
+  max-width:500px;
+
+}
+#overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: none;
+  z-index: 999;
+}
+
+@media(max-width:600px){
+    .c1{
+        display: flex;
+        flex:row;
+    }
+   .charecters{
+    height: 90vh;
+    width: 400px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    padding: 20px;
+    overflow-y: scroll;
+} 
+.members{
+    height:200px ;
+}
+}
+/*quiz page-------------------->*/
+.q{
+    height: 90vh;
+    width: 700px;
+    background-color: hsl(0, 0%, 0%,0.5);
+    color: white;
+    display: flex; 
+    align-items: center;
+    justify-content: center;   
+    gap: 15px;
+    border-radius: 15px;
+}
+/* Body */
+#quizid {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Start Button Container */
+.q {
+    text-align: center;
+}
+
+/* Start Button */
+#quizbtn {
+    padding: 15px 40px;
+    font-size: 24px;
+    border: 2px solid white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#quizbtn:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+/* Question */
+#question {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+/* Result */
+#result {
+    margin-top: 20px;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+}
+@media (max-width:600px){
+    .q{
+    height: 90vh;
+    width: 500px;
+    background-color: hsl(0, 0%, 0%,0.5);
+    color: white;
+    display: flex;
+    flex-direction: column; 
+    gap: 15px;
+    font-size: larger;
+}
+}
+/*vidos------------------>*/
+.videobox{
+    height: 90vh;
+    width: 950px;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    color: white;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding: 50px;
+    cursor: pointer;
+    overflow:scroll;
+    
+}
+.video{
+    
+    border-radius: 15px;
+
+}
+.video video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   /* very important */
+    border-radius: 15px;
+}
+@media(max-width:600px){
+    .videobox{
+    width: 500px;
+}
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="quizid">
+  <audio controls autoplay loop style="display: none;">
+  <source src="audio.mpeg" type="audio/mpeg">
+</audio>
+       <div class="q">
+   <button  id="quizbtn" style="font-weight: 900; font-size: 200%; color: white; 
+   background-color: hsl(39, 77%, 83%,0); ">Let's Start</button>
+   <div id="quizContainer" style="display:none;">
+
+  <h2 id="question"></h2>
+
+  <label>
+    <input type="radio" name="option" value="0">
+    <span id="opt0"></span>
+  </label><br>
+
+  <label>
+    <input type="radio" name="option" value="1">
+    <span id="opt1"></span>
+  </label><br>
+
+  <label>
+    <input type="radio" name="option" value="2">
+    <span id="opt2"></span>
+  </label><br>
+
+  <label>
+    <input type="radio" name="option" value="3">
+    <span id="opt3"></span>
+  </label><br>
+
+  <button id="nextBtn" style="padding: 10px; margin-top: 10px; font-size: larger; border-radius: 10px; background-color: hsl(0, 0%, 100%,0.3);">Next</button>
+
+<a href="quix.html" id="back" style="padding: 10px; margin-top: 10px; font-size: larger; border-radius: 10px; background-color: hsl(0, 0%, 100%,0.3); width: 50px;height: 50px; text-decoration: none; color: rgb(0, 0, 0);">Restart</a>
+   </div>
+<h3 id="result"></h3>
+</div>
+   </div>
+   
+   <script src="quiz.js"></script>
+</body>
+</html>

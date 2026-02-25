@@ -46,7 +46,7 @@ body{
 /* styling for page 2-------------------*/
 
 .sec_div{
-    height: 600px;
+    height: 700px;
     width: 800px;
     background-color: hsl(0, 0%, 0%,0.5);
     color: white;
@@ -71,7 +71,7 @@ img{
     height: 200px;
     width: 200px;
 }
-@media (max-width:600px){
+@media (max-width:700px){
     #body2{
        height: 100vh;
     background-image: url(secmain.jpg);
@@ -116,7 +116,7 @@ img{
     gap: 15px;
     border-radius: 15px;
 }
-@media (max-width:600px){
+@media (max-width:700px){
     .story{
     height: 90vh;
     width: 500px;
@@ -149,7 +149,7 @@ img{
   box-shadow: 0 0 8px rgb(255, 255, 255);
 }
 #eleven{
- background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO6xX4VwzGQIkismaStGB0GQhU7mQDV1K3hA&s);
+ background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO7xX4VwzGQIkismaStGB0GQhU7mQDV1K3hA&s);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -159,7 +159,7 @@ img{
     background-repeat: no-repeat;
 }
 #will{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuU6NlAlsTztqqC39WXWftvNNsLvKwMCWR5w&s);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuU7NlAlsTztqqC39WXWftvNNsLvKwMCWR5w&s);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -169,12 +169,12 @@ img{
     background-repeat: no-repeat;
 }
 #dustin{
-    background-image: url(https://s3.r29static.com/bin/entry/869/x,80/2214004/image.jpg);
+    background-image: url(https://s3.r29static.com/bin/entry/879/x,80/2214004/image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 #steve{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQgcctbX04GE64y0y1uPl18xxNu5Zn7UL9QA&s);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQgcctbX04GE74y0y1uPl18xxNu5Zn7UL9QA&s);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -184,7 +184,7 @@ img{
     background-repeat: no-repeat;
 }
 #jonarthan{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8Zc4Eo3F0I3OVi-J6kEYJVyYX0YQco6ibGg&s);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8Zc4Eo3F0I3OVi-J7kEYJVyYX0YQco7ibGg&s);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -205,12 +205,12 @@ img{
     background-repeat: no-repeat;
 }
 #vecna{
-    background-image: url(https://hips.hearstapps.com/hmg-prod/images/vecna-transformation-69334716c2991.jpg?crop=0.406xw:0.813xh;0.549xw,0.0660xh&resize=640:*);
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/vecna-transformation-79334717c2991.jpg?crop=0.407xw:0.813xh;0.549xw,0.070xh&resize=740:*);
     background-size: cover;
     background-repeat: no-repeat;
 }
 #billy{
-    background-image: url(https://i.pinimg.com/564x/e5/1a/9f/e51a9f3d2a729fe7cf11d20f232c0bb5.jpg);
+    background-image: url(https://i.pinimg.com/574x/e5/1a/9f/e51a9f3d2a729fe7cf11d20f232c0bb5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -220,22 +220,22 @@ img{
     background-repeat: no-repeat;
 }
 #dreek{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7rDU6lFN3aaOOHmOJyDe2qkdELnRb8PYIJg&s);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7rDU7lFN3aaOOHmOJyDe2qkdELnRb8PYIJg&s);
     background-size: cover;
     background-repeat: no-repeat;
 }
 #robin{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSClUdcYSCEEv3r0uxY2aLJC9QOO6CVlQBd_Q&s);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSClUdcYSCEEv3r0uxY2aLJC9QOO7CVlQBd_Q&s);
     background-size: cover;
     background-repeat: no-repeat;
 }
 #murray{
-    background-image: url(https://preview.redd.it/something-i-find-hilarious-about-murray-bauman-v0-arwfa35mkb3c1.png?width=640&crop=smart&auto=webp&s=3ef76312dcdeeeb5702445563bb4e8774a54e80a);
+    background-image: url(https://preview.redd.it/something-i-find-hilarious-about-murray-bauman-v0-arwfa35mkb3c1.png?width=740&crop=smart&auto=webp&s=3ef77312dcdeeeb5702445573bb4e8774a54e80a);
     background-size: cover;
     background-repeat: no-repeat;
 }
 #eddie{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQthAKef4l2Gl68IocUyOIl-KoQO9JErEoOw&s);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQthAKef4l2Gl78IocUyOIl-KoQO9JErEoOw&s);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -245,7 +245,7 @@ img{
     background-repeat: no-repeat;
 }
 #mikedad{
-    background-image: url(https://i.pinimg.com/736x/4b/4b/ae/4b4bae93204753653724320d4b806694.jpg);
+    background-image: url(https://i.pinimg.com/737x/4b/4b/ae/4b4bae93204753753724320d4b80794.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -268,12 +268,12 @@ img{
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.6);
+  background: rgba(0,0,0,0.7);
   display: none;
   z-index: 999;
 }
 
-@media(max-width:600px){
+@media(max-width:700px){
     .c1{
         display: flex;
         flex:row;
@@ -354,7 +354,7 @@ img{
     color: white;
     text-align: center;
 }
-@media (max-width:600px){
+@media (max-width:700px){
     .q{
     height: 90vh;
     width: 500px;
@@ -391,7 +391,7 @@ img{
     object-fit: cover;   /* very important */
     border-radius: 15px;
 }
-@media(max-width:600px){
+@media(max-width:700px){
     .videobox{
     width: 500px;
 }

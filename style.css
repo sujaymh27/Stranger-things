@@ -65,14 +65,8 @@ body{
 
 /* styling for page 2-------------------*/
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-
-.body2{
+#body2{
     min-height: 100vh;
     background-size: cover;
     background-position: center;
@@ -81,11 +75,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: scroll;
+    box-sizing: border-box;
 }
 
 
 .sec_div{
-    height: auto;
+    height: 90%;
     width: 90%;
     max-width: 850px;
     padding: 30px;
@@ -131,6 +127,7 @@ body{
 @media (max-width:700px){
 
     body{
+        height: 100vh;
         align-items: flex-start;
         padding: 40px 0;
     }
@@ -142,12 +139,15 @@ body{
         overflow-y: scroll;
 }
 .seccont{
-        width: 200px;
-        height: 200px;
+        width: 260px;
+        height: 260px;
     }
     }
 
-    
+    .seccont{
+        width: 160px;
+        height: 160px;
+    }
 
 /*story page----------------------*/
 .story{

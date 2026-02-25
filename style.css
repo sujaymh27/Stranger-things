@@ -65,67 +65,68 @@ body{
 
 /* styling for page 2-------------------*/
 
-.sec_div{
-    height: 700px;
-    width: 800px;
-    background-color: hsl(0, 0%, 0%,0.5);
-    color: white;
+body{
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
-    gap: 20px;
-    align-items: center;
     justify-content: center;
-       border-radius: 20px;
-       overflow: scroll;
+    align-items: center;
 }
+
+
+.sec_div{
+    width: 90%;
+    max-width: 800px;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;  
+    gap: 40px;
+}
+
+
 .inner{
     display: flex;
     flex-direction: column;
-    gap:20px
+    gap: 30px;
 }
+
+
 .seccont{
     height: 200px;
     width: 200px;
-    background-color: hsl(0, 0%, 100%,0.5);
-     border: solid white;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 2px solid white;
+    transition: 0.3s ease;
 }
-img{
-    height: 200px;
-    width: 200px;
+
+
+.seccont img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
+
+
+
+
 @media (max-width:700px){
-    #body2{
-    height: 100vh;
-    width: 400px;
-    background-image: url(secmain.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- 
-}
+
     .sec_div{
-    height: 1100px;
-    width: 400px;
-    background-color: hsl(0, 0%, 0%,0.5);
-    color: white;
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.seccont{
-    height: 250px;
-    width: 250px;
-    background-color: hsl(0, 0%, 100%,0.5);
-   
-}
-img{
-    height: 250px;
-    width: 250px;
-}
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .seccont{
+        height: 250px;
+        width: 250px;
+    }
 }
 /*story page----------------------*/
 .story{
@@ -142,13 +143,26 @@ img{
 @media (max-width:700px){
     .story{
     height: 90vh;
-    width: 400px;
+    width: 300px;
     background-color: hsl(0, 0%, 0%,0.5);
     color: white;
     display: flex;
     flex-direction: column; 
     gap: 15px;
     font-size: larger;
+}
+#st{
+    font-size: medium;
+}
+p{
+    font-size: small;
+}
+#down{
+    text-decoration: none; 
+    border-radius: 15%;
+    font-size: medium; 
+    color: white; 
+    text-align: center;
 }
 }
 /*charecters page----------------------*/
@@ -313,6 +327,21 @@ img{
 } 
 .members{
     height:200px ;
+}
+.members1{
+
+  position: fixed;
+width: 300px;
+height: 500px;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  display: none;   /* VERY IMPORTANT */
+  background:white;
+  padding:20px;
+  z-index:1000;
+  overflow: scroll;
+
 }
 }
 /*quiz page-------------------->*/

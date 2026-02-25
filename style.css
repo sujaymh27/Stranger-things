@@ -65,11 +65,19 @@ body{
 
 /* styling for page 2-------------------*/
 
-body{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.body2{
     min-height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,13 +86,15 @@ body{
 
 .sec_div{
     width: 90%;
-    max-width: 800px;
+    max-width: 850px;
+    padding: 30px;
+
     background-color: rgba(0,0,0,0.6);
     border-radius: 20px;
-    padding: 30px;
+
     display: flex;
     justify-content: center;
-    align-items: flex-start;  
+    align-items: flex-start;   /* important */
     gap: 40px;
 }
 
@@ -97,25 +107,31 @@ body{
 
 
 .seccont{
-    height: 200px;
-    width: 200px;
-    border-radius: 15px;
+    width: 220px;
+    height: 220px;
+
+    border-radius: 20px;
     overflow: hidden;
-    border: 2px solid white;
+    border: 3px solid white;
+
     transition: 0.3s ease;
 }
 
 
 .seccont img{
-    height: 100%;
     width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
 
 
-
 @media (max-width:700px){
+
+    body{
+        align-items: flex-start;
+        padding: 40px 0;
+    }
 
     .sec_div{
         flex-direction: column;
@@ -124,8 +140,8 @@ body{
     }
 
     .seccont{
-        height: 250px;
-        width: 250px;
+        width: 260px;
+        height: 260px;
     }
 }
 /*story page----------------------*/
